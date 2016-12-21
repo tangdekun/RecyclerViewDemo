@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="121dp"
+        android:layout_height="120dp"
+        android:background="@mipmap/cat"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/grid_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Dog"
+        />
+</LinearLayout>
